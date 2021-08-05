@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: #f9de5a;
   border-bottom: 2px solid #af5a009d;
   padding-bottom: 6px;
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #af5a009d;
+  color: #ff84009d;
   text-decoration: none;
 }
 
@@ -564,8 +564,12 @@ section .container {
   border-radius: 4px;
 }
 
+.portfolio .container .section-title p{
+  color: #f9de5a;
+}
+
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #f9de5aa6;
+  background: #ecc609a6;
   border-radius: 20px;
 }
 
@@ -584,7 +588,7 @@ section .container {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.727);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -609,6 +613,7 @@ section .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -619,8 +624,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #ff84009d;
+  border-left: 3px solid #ff84009d;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -633,8 +638,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #ff84009d;
+  border-right: 3px solid #ff84009d;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -667,7 +672,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #ff84009d;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -699,6 +704,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
+  height: 600px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 20px;
 }
@@ -719,9 +725,13 @@ section .container {
   margin: 10px 0 8px 68px;
 }
 
+.contact .container .section-title p{
+  color: #f9de5a;
+}
+
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #f9de5a;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -744,6 +754,7 @@ section .container {
 .contact .info-box .social-links a:hover {
   color: #18d26e;
 }
+
 
 .contact .php-email-form {
   padding: 30px;
