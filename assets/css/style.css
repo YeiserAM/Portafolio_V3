@@ -30,9 +30,9 @@ body::before {
 @media (max-width: 800px){
   body::before {
     background: linear-gradient(to bottom,
-    rgba(255, 157, 11, 0.36),
+    rgba(43, 27, 3, 0.767),
     rgba(7, 6, 2, 0.1),
-    rgba(255, 157, 11, 0.36)
+    rgba(163, 99, 2, 0.415)
     ), url(../img/backround.jpg) center center no-repeat;
   }
 }
