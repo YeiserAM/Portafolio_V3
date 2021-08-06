@@ -13,7 +13,11 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/backround.jpg") top right no-repeat;
+  background: linear-gradient(to bottom,
+  rgba(211, 135, 20, 0.402),
+  rgba(78, 60, 0, .1),
+  rgba(211, 135, 20, 0.402)
+  ), url(../img/backround.jpg) center center no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -522,6 +526,147 @@ section .container {
   
 }
 
+/* INSTITUCIONES */
+.grid{
+
+  display: grid;
+  grid-template-columns: repeat(7, 10rem);
+}
+
+
+.interests .logo1{
+  padding: auto;
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(181, 255, 128, 0.52);
+}
+
+.interests .logo2{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(187, 247, 77, 0.32);
+}
+
+.interests .logo3{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative; 
+  border: 6px solid rgba(255, 64, 50, 0.32);
+}
+
+.interests .logo4{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(41, 159, 255, 0.32);
+}
+
+.interests .logo5{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(247, 47, 24, 0.32);
+}
+
+.interests .logo6{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(252, 104, 36, 0.32);
+}
+.interests .logo7{
+  display: flex;
+  width: 90px;
+  border-radius: 30%;
+  position: relative;
+  border: 6px solid rgba(96, 96, 96, 0.464);
+}
+
+@media (max-width: 800px) {
+  .grid{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+  } 
+
+}
+
+@media (max-width: 600px) {
+
+  .grid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  } 
+
+}
+/* @media (max-width: 800px) {
+
+  .interests .logo1{
+  display: flex;
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(181, 255, 128, 0.52);
+}
+
+.interests .logo2{
+ 
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(187, 247, 77, 0.32);
+}
+
+.interests .logo3{
+  display: flex;
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 64, 50, 0.32);
+}
+
+.interests .logo4{
+  display: flex;
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(41, 159, 255, 0.32);
+}
+
+.interests .logo5{
+  display: flex;
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(247, 47, 24, 0.32);
+}
+
+.interests .logo6{
+  display: flex;
+  width: 85px;
+  border-radius: 30%;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(252, 104, 36, 0.32);
+}
+}  */
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -696,6 +841,42 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+/*
+.testimonials .testimonial-item .info-box {
+  border: 6px solid rgba(201, 127, 0, 0.478);
+  border-radius: 22px;
+} */
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 70px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(209, 133, 0, 0.547);
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #fff;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 12px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Contact
